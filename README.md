@@ -1,10 +1,10 @@
-# 🏥 Healthcare Cost Prediction — Caltech Data Science Capstone Project
+# Healthcare Cost Prediction — Caltech Data Science Capstone Project
 
 **Comprehensive data science capstone project focused on predicting patient healthcare costs using real-world features and multiple tools including SQL, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, SciPy, and Tableau.**
 
 ---
 
-## 📘 Overview
+## Overview
 
 Rising healthcare costs are a major public concern and a financial burden for both patients and insurance providers. This project aims to predict patient healthcare expenses and identify the factors contributing to these costs using structured data and end-to-end data science techniques.
 
@@ -12,7 +12,7 @@ This capstone represents the culmination of Caltech's Data Science Certificate P
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Predict patients’ future healthcare costs using structured data.
 - Identify key factors that influence medical charges.
@@ -23,7 +23,7 @@ This capstone represents the culmination of Caltech's Data Science Certificate P
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 
 The project uses a dataset composed of three related tables:
 
@@ -31,12 +31,14 @@ The project uses a dataset composed of three related tables:
 | Column Name         | Description                              |
 |---------------------|------------------------------------------|
 | `Customer ID`       | Unique identifier for each patient       |
-| `Year`, `Month`, `Date` | Date of hospitalization             |
+| `Year`              | Year of hospitalization                  |
+| `Month`             | Month of hospitalization                 |
+| `Date`              | Date of hospitalization                  |
 | `No_of_children`    | Number of children the patient has       |
-| `Charges`           | Total medical charges incurred           |
-| `Hospital_Tier`     | Tier level of the hospital               |
-| `City_Tier`         | Tier classification of the city          |
-| `State_ID`          | Encoded state identifier                 |
+| `Charges`           | Hospitalization cost                     |
+| `Hospital_Tier`     | Tier level of the hospital (tie1-1 best) |
+| `City_Tier`         | Tier classification of the city (tie1-1 best)|
+| `State_ID`          | ID of the State                          |
 
 ### 2. **Medical Examinations**
 | Column Name          | Description                                      |
@@ -45,7 +47,7 @@ The project uses a dataset composed of three related tables:
 | `BMI`                | Body Mass Index                                  |
 | `HBA1C`              | Glycated hemoglobin level (diabetes indicator)   |
 | `Heart_Issues`       | Heart-related issues (Yes/No)                    |
-| `Any_Transplants`    | Organ transplant status                          |
+| `Any_Transplants`    | Organ transplant status (Yes/No)                          |
 | `Cancer_History`     | Cancer history (Yes/No)                          |
 | `No_of_Major_Surgeries` | Count of major surgeries                     |
 | `Smoker`             | Smoking status (Yes/No)                          |
@@ -58,7 +60,7 @@ The project uses a dataset composed of three related tables:
 
 ---
 
-## 🔧 Tools & Libraries
+## Tools & Libraries
 
 | Category | Tools & Libraries |
 |---------|-------------------|
@@ -71,7 +73,7 @@ The project uses a dataset composed of three related tables:
 
 ---
 
-## 📈 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA) ?????
 
 Performed detailed EDA to:
 - Understand distributions of key features (charges, BMI, age, etc.)
@@ -81,7 +83,7 @@ Performed detailed EDA to:
 
 ---
 
-## 🤖 Modeling
+## Modeling ????
 
 Trained and evaluated multiple regression models to predict healthcare costs:
 - Linear Regression
@@ -96,7 +98,7 @@ Model evaluation metrics:
 
 ---
 
-## 📋 Results & Insights
+## Results & Insights  ????
 
 - Smoking status, BMI, and major surgeries were among the strongest predictors of healthcare costs.
 - Random Forest performed best with the lowest RMSE and highest R².
@@ -104,7 +106,7 @@ Model evaluation metrics:
 
 ---
 
-## 📊 Tableau Dashboard
+## Tableau Dashboard
 
 An interactive Tableau dashboard was created to:
 - Explore cost trends by city/state tiers
@@ -113,5 +115,58 @@ An interactive Tableau dashboard was created to:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
+```
+healthcare-cost-capstone-project/
+├── data/
+│ ├── hospitalization.csv
+│ ├── medical_examination.csv
+│ └── names.csv
+├── notebooks/
+│ ├── 01_data_cleaning.ipynb
+│ ├── 02_eda_visualization.ipynb
+│ ├── 03_modeling.ipynb
+├── tableau/
+│ └── dashboard.twbx
+├── outputs/
+│ ├── model_results.csv
+│ └── plots/
+├── README.md
+└── requirements.txt
+```
+
+---
+
+## Key Learnings
+
+- End-to-end data science workflow: from raw data to business insights.
+- Importance of domain context in healthcare analytics.
+- Comparing and tuning different regression models.
+- Communicating results using visual tools like Tableau.
+
+---
+
+## Future Improvements
+
+- Deploy model via Flask or Streamlit as a web app.
+- Include patient age and gender if available.
+- Integrate real-time API for ongoing cost prediction.
+- Use SHAP for explainable ML.
+
+---
+
+## Author
+
+**Abolfazl Zolfaghari**  
+Data Science Graduate — Caltech  
+[LinkedIn](#) | [GitHub](https://github.com/abolfazl6678)
+
+---
+
+## License
+
+This project is licensed under the MIT License — feel free to use and modify.
+
+---
+
 
