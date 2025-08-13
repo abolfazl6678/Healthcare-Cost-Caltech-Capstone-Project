@@ -47,9 +47,9 @@ The project uses a dataset composed of three related tables:
 | `BMI`                | Body Mass Index                                  |
 | `HBA1C`              | Glycated hemoglobin level (diabetes indicator)   |
 | `Heart_Issues`       | Heart-related issues (Yes/No)                    |
-| `Any_Transplants`    | Organ transplant status (Yes/No)                          |
+| `Any_Transplants`    | Organ transplant status (Yes/No)                 |
 | `Cancer_History`     | Cancer history (Yes/No)                          |
-| `No_of_Major_Surgeries` | Count of major surgeries                     |
+| `No_of_Major_Surgeries` | Count of major surgeries                      |
 | `Smoker`             | Smoking status (Yes/No)                          |
 
 ### 3. **Names**
@@ -76,16 +76,27 @@ The project uses a dataset composed of three related tables:
 ## Exploratory Data Analysis (EDA) ?????
 
 Performed detailed EDA to:
-- Understand distributions of key features (charges, BMI, age, etc.)
-- Detect outliers and missing values
-- Visualize relationships between features (e.g., smoker vs charges)
-- Identify correlations and feature dependencies
+- Understand the Problem & Data Context
+- Load & Inspect the Data
+- Data Cleaning & Preprocessing (missing data, data conversion for categorical data, etc)
+- Create new meaningful factors to the investigation from current variables (age and gender)
+- Distribution study of varaibles by plots including histogram, box, swarm, radar, violion, and stacked bar 
+- Hypothesis testing to find significe between hospital and city tier and smoking status on hospitalization costs
+- 
 
+- Univariate Analysis (Single Variable)
+- Bivariate & Multivariate Analysis
+- Feature Relationships with Target Variable
+- Outlier & Anomaly Detection
+- Data Transformation (if needed)
+- Feature Engineering Ideas
+- Documentation & Insights
+  
 ---
 
 ## Modeling ????
 
-Trained and evaluated multiple regression models to predict healthcare costs:
+Trained and evaluated multiple machine leanring models to predict healthcare costs:
 - Linear Regression
 - Decision Tree Regressor
 - Random Forest Regressor
@@ -109,13 +120,23 @@ Model evaluation metrics:
 ## Tableau Dashboard
 
 An interactive Tableau dashboard was created to:
-- Explore cost trends by city/state tiers
-- Visualize cost differences by smoking status, hospital tier, and more
-> 📎 [Link to Tableau Public Dashboard](#) *(Add your actual link here)*
+- Explore healthcare cost by all family and health related factors such as age, hospital-tier, cancer history, etc. 
+- Visualize average, maximum and minimum healthcare cost by all the fators (family and health).
 
 ---
 
-## Project Structure
+## SQL
+
+Gain comprehensive understanding of the factors affecting hospitalization costs:
+- Create database and related tables.
+- Determine type of data in each column.
+- Clean data in the tables (null, duplicated, etc).
+- Merge tables properly and perform related processes.
+- Analyze effects of factors on average cost of hospitalization.
+
+---
+
+## Project Structure ???
 ```
 healthcare-cost-capstone-project/
 ├── data/
@@ -127,31 +148,35 @@ healthcare-cost-capstone-project/
 │ ├── 02_eda_visualization.ipynb
 │ ├── 03_modeling.ipynb
 ├── tableau/
-│ └── dashboard.twbx
+│ └── Business_Insights.twbx
+│ └── dashboard_Tableau_BI.png
 ├── outputs/
 │ ├── model_results.csv
+│ ├── dashboard_Tableau_BI.png
 │ └── plots/
 ├── README.md
-└── requirements.txt
-```
+└── SQL/
+  ├── SQL_Script.sql
+  ├── SQL_Script.docx
+  └── Problem_defenition.png
 
----
+```
 
 ## Key Learnings
 
 - End-to-end data science workflow: from raw data to business insights.
 - Importance of domain context in healthcare analytics.
-- Comparing and tuning different regression models.
+- Comparing and tuning different regression and machine learning models.
 - Communicating results using visual tools like Tableau.
+- Gained comprehnesive understadning of factors affecting on hospitalization costs by SQL
 
 ---
 
 ## Future Improvements
 
-- Deploy model via Flask or Streamlit as a web app.
-- Include patient age and gender if available.
+- Deploy model on AWS cloud.
+- Include more factors gender, race and physical activity if available.
 - Integrate real-time API for ongoing cost prediction.
-- Use SHAP for explainable ML.
 
 ---
 
@@ -159,14 +184,11 @@ healthcare-cost-capstone-project/
 
 **Abolfazl Zolfaghari**  
 Data Science Graduate — Caltech  
-[LinkedIn](#) | [GitHub](https://github.com/abolfazl6678)
+[Email](ab.zolfaghari.abbasghaleh) | [GitHub](https://github.com/abolfazl6678)
 
 ---
 
-## License
 
-This project is licensed under the MIT License — feel free to use and modify.
 
----
 
 
