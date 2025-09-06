@@ -1,4 +1,4 @@
-# Healthcare Cost Prediction — Caltech Data Science Capstone Project
+# Healthcare Cost Prediction - Caltech Data Science Capstone Project
 
 **Comprehensive data science capstone project focused on predicting patient healthcare costs using real-world features and multiple tools including SQL, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, SciPy, and Tableau.**
 
@@ -182,8 +182,7 @@ healthcare-cost-capstone-project/
 
 ## Author
 
-**Abolfazl Zolfaghari**  
-Data Science Graduate — Caltech  
+**Abolfazl Zolfaghari**
 [Email](ab.zolfaghari.abbasghaleh) | [GitHub](https://github.com/abolfazl6678)
 
 ---
