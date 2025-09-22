@@ -12,7 +12,7 @@ This capstone represents the culmination of Caltech's Data Science Certificate P
 
 ---
 
-## Objectives
+## Objectives  ?????????
 
 - Predict patients’ future healthcare costs using structured data.
 - Identify key factors that influence medical charges.
@@ -69,19 +69,18 @@ The project uses a dataset composed of three related tables:
 | Data Visualization | Matplotlib, Seaborn, Tableau |
 | Statistical Analysis | SciPy |
 | Machine Learning | Scikit-learn |
-| Other | Jupyter Notebook, VS Code, GitHub |
+| Other | Jupyter Notebook, Git/GitHub |
 
 ---
 
-## Exploratory Data Analysis (EDA) ?????
+## 1. Exploratory Data Analysis (EDA) and Feature Engineering ?????
 
-Performed detailed EDA to:
 - Understand the Problem & Data Context
 - Load & Inspect the Data
 - Data Cleaning & Preprocessing (missing data, data conversion for categorical data, etc)
 - Create new meaningful factors to the investigation from current variables (age and gender)
 - Distribution study of varaibles by plots including histogram, box, swarm, radar, violion, and stacked bar 
-- Hypothesis testing to find significe between hospital and city tier and smoking status on hospitalization costs
+- Hypothesis testing to find significe between hospital tier, city tier and smoking status on hospitalization costs
 - 
 
 - Univariate Analysis (Single Variable)
@@ -94,7 +93,7 @@ Performed detailed EDA to:
   
 ---
 
-## Modeling ????
+## 2. Modeling ????
 
 Trained and evaluated multiple machine leanring models to predict healthcare costs:
 - Linear Regression
@@ -117,7 +116,7 @@ Model evaluation metrics:
 
 ---
 
-## Tableau Dashboard
+## 3. Tableau Dashboard
 
 An interactive Tableau dashboard was created to:
 - Explore healthcare cost by all family and health related factors such as age, hospital-tier, cancer history, etc. 
@@ -125,7 +124,7 @@ An interactive Tableau dashboard was created to:
 
 ---
 
-## SQL
+## 4. SQL
 
 Gain comprehensive understanding of the factors affecting hospitalization costs:
 - Create database and related tables.
