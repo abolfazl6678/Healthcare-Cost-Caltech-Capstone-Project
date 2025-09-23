@@ -88,6 +88,7 @@ The project uses a dataset composed of three related tables:
 - Decision Tree Regressor
 - Random Forest Regressor
 - Gradient Boosting Regressor
+  
 *Model evaluation metrics:*
 - RMSE (Root Mean Squared Error)
 - MAE (Mean Absolute Error)
