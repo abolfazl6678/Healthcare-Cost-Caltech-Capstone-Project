@@ -75,24 +75,20 @@ The project uses a dataset composed of three related tables:
 ## Methodology
 
 **1. Exploratory Data Analysis (EDA) and Feature Engineering**
-
 - Understand the Problem & Data Context
 - Load & Inspect the Data
 - Data Cleaning & Preprocessing (missing data, data conversion for categorical data, etc)
 - Create new meaningful factors to the investigation from current variables (age and gender)
 - Distribution study of varaibles by plots including histogram, box, swarm, radar, violion, and stacked bar 
 - Hypothesis testing to find significe between hospital tier, city tier and smoking status on hospitalization costs
-- 
 
-**2. Building Mchine Learning Models and compariingn the performance**
-
-Trained and evaluated multiple machine leanring models to predict healthcare costs:
+**2. Built multiple Machine Learning models and compared their performance**
 - Linear Regression
 - Rige and Lasso Regression
 - Decision Tree Regressor
 - Random Forest Regressor
 - Gradient Boosting Regressor
-Model evaluation metrics:
+*Model evaluation metrics:*
 - RMSE (Root Mean Squared Error)
 - MAE (Mean Absolute Error)
 - R² Score
