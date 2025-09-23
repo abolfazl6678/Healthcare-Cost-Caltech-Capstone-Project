@@ -12,7 +12,7 @@ This capstone represents the culmination of Caltech's Data Science Certificate P
 
 ---
 
-## Objectives  ?????????
+## Objectives
 
 - Predict patients’ future healthcare costs using structured data.
 - Identify key factors that influence medical charges.
@@ -60,20 +60,21 @@ The project uses a dataset composed of three related tables:
 
 ---
 
-## Tools & Libraries
+## Tools & Libraries ????
 
 | Category | Tools & Libraries |
 |---------|-------------------|
 | Programming | Python, SQL |
 | Data Manipulation | Pandas, NumPy |
 | Data Visualization | Matplotlib, Seaborn, Tableau |
-| Statistical Analysis | SciPy |
+| Statistical Analysis | SciPy, Statmodels |
 | Machine Learning | Scikit-learn |
 | Other | Jupyter Notebook, Git/GitHub |
 
 ---
+## Methodology
 
-## 1. Exploratory Data Analysis (EDA) and Feature Engineering ?????
+**1. Exploratory Data Analysis (EDA) and Feature Engineering**
 
 - Understand the Problem & Data Context
 - Load & Inspect the Data
@@ -83,47 +84,24 @@ The project uses a dataset composed of three related tables:
 - Hypothesis testing to find significe between hospital tier, city tier and smoking status on hospitalization costs
 - 
 
-- Univariate Analysis (Single Variable)
-- Bivariate & Multivariate Analysis
-- Feature Relationships with Target Variable
-- Outlier & Anomaly Detection
-- Data Transformation (if needed)
-- Feature Engineering Ideas
-- Documentation & Insights
-  
----
-
-## 2. Modeling ????
+**2. Building Mchine Learning Models and compariingn the performance**
 
 Trained and evaluated multiple machine leanring models to predict healthcare costs:
 - Linear Regression
+- Rige and Lasso Regression
 - Decision Tree Regressor
 - Random Forest Regressor
 - Gradient Boosting Regressor
-
 Model evaluation metrics:
 - RMSE (Root Mean Squared Error)
 - MAE (Mean Absolute Error)
 - R² Score
 
----
-
-## Results & Insights  ????
-
-- Smoking status, BMI, and major surgeries were among the strongest predictors of healthcare costs.
-- Random Forest performed best with the lowest RMSE and highest R².
-- Visualizations provided key insights into how demographic and medical variables impact cost.
-
----
-
-## 3. Tableau Dashboard
+**3. Tableau Dashboard**
 
 An interactive Tableau dashboard was created to:
 - Explore healthcare cost by all family and health related factors such as age, hospital-tier, cancer history, etc. 
 - Visualize average, maximum and minimum healthcare cost by all the fators (family and health).
-
----
-
 ## 4. SQL
 
 Gain comprehensive understanding of the factors affecting hospitalization costs:
@@ -133,6 +111,13 @@ Gain comprehensive understanding of the factors affecting hospitalization costs:
 - Merge tables properly and perform related processes.
 - Analyze effects of factors on average cost of hospitalization.
 
+---
+
+## Results & Insights  ????
+
+- Smoking status, BMI, and major surgeries were among the strongest predictors of healthcare costs.
+- Random Forest performed best with the lowest RMSE and highest R².
+- Visualizations provided key insights into how demographic and medical variables impact cost.
 ---
 
 ## Project Structure ???
