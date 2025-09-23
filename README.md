@@ -60,7 +60,7 @@ The project uses a dataset composed of three related tables:
 
 ---
 
-## Tools & Libraries ????
+## Tools & Libraries
 
 | Category | Tools & Libraries |
 |---------|-------------------|
@@ -99,7 +99,7 @@ The project uses a dataset composed of three related tables:
 An interactive Tableau dashboard was created to:
 - Explore healthcare cost by all family and health related factors such as age, hospital-tier, cancer history, etc. 
 - Visualize average, maximum and minimum healthcare cost by all the fators (family and health).
-## 4. SQL
+**4. SQL**
 
 Gain comprehensive understanding of the factors affecting hospitalization costs:
 - Create database and related tables.
