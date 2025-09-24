@@ -110,7 +110,7 @@ Gain comprehensive understanding of the factors affecting hospitalization costs:
 
 ---
 
-## Results & Insights  ????
+## Results & Insights ???
 
 - Smoking status, BMI, and major surgeries were among the strongest predictors of healthcare costs.
 - Random Forest performed best with the lowest RMSE and highest R².
@@ -142,6 +142,49 @@ healthcare-cost-capstone-project/
   └── Problem_defenition.png
 
 ```
+```
+├── data/
+│ ├── interim/
+│ │   ├── df_Hospitalisation_details.parquet
+│ │   ├── df_Medical_Examinations.parquet
+│ │   └── df_Names.parquet
+│ └── raw/
+│     ├── hospitalization.csv
+│     ├── names.csv
+│     └── medical_examination.xlsx
+├── jupyter_notebook_Scripts/ ????
+│     ├── 01_EDA_Feature_Engineering.ipynb
+│     ├── 0.ipynb 
+│     └── 0s.ipynb
+├── output/ ?????
+│     ├── 01_EDA_Feature_Engineering.docx
+│     ├── 0
+│     ├── 03_ 
+│     └── 04_Clustering_Analysis.docx
+├── plots/ ???
+│     ├── Box_plot_whisker.png
+│     ├── Cost_dist_hospital_tier_gender.png
+│     ├── Histogram.png
+│     ├── Median_cost_radar_plot.png
+│     ├── stacked_plot.png
+│     ├── Swarm_Plots.png
+│     ├── Et.png
+│     ├── EK.png
+│     └── C.png
+├── SQL/ ???
+│     ├── 01_Data_Inspection_Cleaning.docx
+│     ├── 02_Exploratory_Data Analysis_(EDA)_Feature_Engineering.docx
+│     └── 04_Clustering_Analysis.docx
+├── Tableau/
+│     ├── Business_Insights.twbx
+│     ├── Business_Insights.twb
+│     └── dashboard_Tableau_BI.png
+└── README.md
+
+
+```
+
+
 
 ## Key Learnings
 
