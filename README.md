@@ -79,10 +79,12 @@ The project uses a dataset composed of three related tables:
 - Load & Inspect the Data
 - Data Cleaning & Preprocessing (missing data, data conversion for categorical data, etc)
 - Create new meaningful factors to the investigation from current variables (age and gender)
-- Distribution study of varaibles by plots including histogram, box, swarm, radar, violion, and stacked bar 
+- Distribution study of varaibles by plots including histogram, box, swarm, radar, violion, and stacked bar
+
+**2. Hypothesis testing**
 - Hypothesis testing to find significe between hospital tier, city tier and smoking status on hospitalization costs
 
-**2. Built multiple Machine Learning models and compared their performance**
+**3. Built multiple Machine Learning models and compared their performance**
 - Linear Regression
 - Rige and Lasso Regression
 - Decision Tree Regressor
@@ -94,13 +96,13 @@ The project uses a dataset composed of three related tables:
 - MAE (Mean Absolute Error)
 - R² Score
 
-**3. Tableau Dashboard**
+**4. Tableau Dashboard**
 
 An interactive Tableau dashboard was created to:
 - Explore healthcare cost by all family and health related factors such as age, hospital-tier, cancer history, etc. 
 - Visualize average, maximum and minimum healthcare cost by all the fators (family and health).
 
-**4. SQL**
+**5. SQL**
 
 Gain comprehensive understanding of the factors affecting hospitalization costs:
 - Create database and related tables.
@@ -132,12 +134,12 @@ Gain comprehensive understanding of the factors affecting hospitalization costs:
 │     └── medical_examination.xlsx
 ├── jupyter_notebook_Scripts/ ????
 │     ├── 01_EDA_Feature_Engineering.ipynb
-│     ├── 0.ipynb 
+│     ├── 02_Hypothesis_tesing.ipynb 
 │     └── 0s.ipynb
 ├── output/ ?????
 │ ├── jupyter_notebook/
 │ │   ├── 01_EDA_Feature_Engineering.docx
-│ │   ├── ??
+│ │   ├── 02_Hypothesis_tesing.docx
 │ │   └── ???
 │ ├── SQL/
 │ │   ├── merged_cleaned_tables_Hospitalisation_details_Medical_Examinations.csv
@@ -154,7 +156,7 @@ Gain comprehensive understanding of the factors affecting hospitalization costs:
 │     ├── Median_cost_radar_plot.png
 │     ├── stacked_plot.png
 │     ├── Swarm_Plots.png
-│     ├── ??.png
+│     ├── Heat_map.png
 │     ├── ??.png
 │     └── ?.png
 ├── SQL/
