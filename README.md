@@ -99,6 +99,7 @@ The project uses a dataset composed of three related tables:
 An interactive Tableau dashboard was created to:
 - Explore healthcare cost by all family and health related factors such as age, hospital-tier, cancer history, etc. 
 - Visualize average, maximum and minimum healthcare cost by all the fators (family and health).
+
 **4. SQL**
 
 Gain comprehensive understanding of the factors affecting hospitalization costs:
@@ -172,6 +173,7 @@ Gain comprehensive understanding of the factors affecting hospitalization costs:
    2. Connect to local database.
    3. Output of the notebooks can be check in `Output` folder.
    4. All analysis of the data can be read in the related notebooks and the outputs.
+
 **2. SQL:**
    1. Open MySQL Workbench.
    2. Run all scripts one by one according to numbers.
@@ -181,6 +183,7 @@ Gain comprehensive understanding of the factors affecting hospitalization costs:
    6. Repeat it for tables including `Hospitalisation_details`, `Medical_Examinations` and `Names`.
    7. Open `SQL_Script` from SQL folder by MYSQL 
    8. Select all lines in the written code and run it 
+
 **3. tableau:**
    1. Go to `Tableau` folder.
    2. Run `Business_Insights.twbx`.
