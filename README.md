@@ -110,7 +110,7 @@ Gain comprehensive understanding of the factors affecting hospitalization costs:
 
 ---
 
-## Results & Insights ???
+## Results & Insights
 
 - Smoking status, BMI, and major surgeries were among the strongest predictors of healthcare costs.
 - Random Forest performed best with the lowest RMSE and highest R².
@@ -118,30 +118,7 @@ Gain comprehensive understanding of the factors affecting hospitalization costs:
 ---
 
 ## Project Structure ???
-```
-healthcare-cost-capstone-project/
-├── data/
-│ ├── hospitalization.csv
-│ ├── medical_examination.csv
-│ └── names.csv
-├── notebooks/
-│ ├── 01_data_cleaning.ipynb
-│ ├── 02_eda_visualization.ipynb
-│ ├── 03_modeling.ipynb
-├── tableau/
-│ └── Business_Insights.twbx
-│ └── dashboard_Tableau_BI.png
-├── outputs/
-│ ├── model_results.csv
-│ ├── dashboard_Tableau_BI.png
-│ └── plots/
-├── README.md
-└── SQL/
-  ├── SQL_Script.sql
-  ├── SQL_Script.docx
-  └── Problem_defenition.png
 
-```
 ```
 ├── data/
 │ ├── interim/
@@ -149,7 +126,7 @@ healthcare-cost-capstone-project/
 │ │   ├── df_Medical_Examinations.parquet
 │ │   └── df_Names.parquet
 │ └── raw/
-│     ├── hospitalization.csv
+│     ├── Hospitalisation_details.csv
 │     ├── names.csv
 │     └── medical_examination.xlsx
 ├── jupyter_notebook_Scripts/ ????
@@ -157,10 +134,18 @@ healthcare-cost-capstone-project/
 │     ├── 0.ipynb 
 │     └── 0s.ipynb
 ├── output/ ?????
-│     ├── 01_EDA_Feature_Engineering.docx
-│     ├── 0
-│     ├── 03_ 
-│     └── 04_Clustering_Analysis.docx
+│ ├── jupyter_notebook/
+│ │   ├── 01_EDA_Feature_Engineering.docx
+│ │   ├── ??
+│ │   └── ???
+│ ├── SQL/
+│ │   ├── merged_cleaned_tables_Hospitalisation_details_Medical_Examinations.csv
+│ │   ├── data_analysis_1.png
+│ │   ├── data_analysis_2.png
+│ │   ├── data_analysis_3.png
+│ │   └── data_analysis_4.png
+│ └── Tableau/
+│     └── dashboard_Tableau_BI.png
 ├── plots/ ???
 │     ├── Box_plot_whisker.png
 │     ├── Cost_dist_hospital_tier_gender.png
@@ -168,23 +153,39 @@ healthcare-cost-capstone-project/
 │     ├── Median_cost_radar_plot.png
 │     ├── stacked_plot.png
 │     ├── Swarm_Plots.png
-│     ├── Et.png
-│     ├── EK.png
-│     └── C.png
-├── SQL/ ???
-│     ├── 01_Data_Inspection_Cleaning.docx
-│     ├── 02_Exploratory_Data Analysis_(EDA)_Feature_Engineering.docx
-│     └── 04_Clustering_Analysis.docx
-├── Tableau/
+│     ├── ??.png
+│     ├── ??.png
+│     └── ?.png
+├── SQL/
+│     └── SQL_Script.sql
+├── tableau/
 │     ├── Business_Insights.twbx
-│     ├── Business_Insights.twb
-│     └── dashboard_Tableau_BI.png
+│     └── Business_Insights.twb
 └── README.md
 
 
 ```
-
-
+---
+## Steps to Run
+**1. jupyter notebook:**
+   1. Go to `Jupyter_notebook_Scripts` folder.
+   2. Connect to local database.
+   3. Output of the notebooks can be check in `Output` folder.
+   4. All analysis of the data can be read in the related notebooks and the outputs.
+**2. SQL:**
+   1. Open MySQL Workbench.
+   2. Run all scripts one by one according to numbers.
+   3. Right-click on data base named `insurance_analysis`.
+   4. Pick `Table Data Import Wizard` from the right click menu
+   5. Follow all windows step by step until the table import to MySQL
+   6. Repeat it for tables including `Hospitalisation_details`, `Medical_Examinations` and `Names`.
+   7. Open `SQL_Script` from SQL folder by MYSQL 
+   8. Select all lines in the written code and run it 
+**3. tableau:**
+   1. Go to `Tableau` folder.
+   2. Run `Business_Insights.twbx`.
+   3. Created dashboard is appeared
+---
 
 ## Key Learnings
 
