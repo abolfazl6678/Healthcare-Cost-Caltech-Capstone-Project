@@ -135,12 +135,12 @@ Gain comprehensive understanding of the factors affecting hospitalization costs:
 ├── jupyter_notebook_Scripts/ ????
 │     ├── 01_EDA_Feature_Engineering.ipynb
 │     ├── 02_Hypothesis_tesing.ipynb 
-│     └── 0s.ipynb
-├── output/ ?????
+│     └── 03_ML_modeling.ipynb
+├── output/
 │ ├── jupyter_notebook/
 │ │   ├── 01_EDA_Feature_Engineering.docx
 │ │   ├── 02_Hypothesis_tesing.docx
-│ │   └── ???
+│ │   └── 03_ML_modeling.docx
 │ ├── SQL/
 │ │   ├── merged_cleaned_tables_Hospitalisation_details_Medical_Examinations.csv
 │ │   ├── data_analysis_1.png
