@@ -127,6 +127,7 @@ Gain comprehensive understanding of the factors affecting hospitalization costs:
 │ ├── interim/
 │ │   ├── df_Hospitalisation_details.parquet
 │ │   ├── df_Medical_Examinations.parquet
+│ │   ├── df.parquet
 │ │   └── df_Names.parquet
 │ └── raw/
 │     ├── Hospitalisation_details.csv
