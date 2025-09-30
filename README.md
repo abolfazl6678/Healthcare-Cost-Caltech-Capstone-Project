@@ -187,6 +187,7 @@ Healthcare Cost Prediction - Caltech Data Science Capstone Project/
    2. Connect to local database.
    3. Output of the notebooks can be check in `Output` folder.
    4. All analysis of the data can be read in the related notebooks and the outputs.
+   5. Final ML model can be download named `ML_model.pkl`.
 
 **2. SQL:**
    1. Open MySQL Workbench.
