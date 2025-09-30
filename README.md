@@ -120,9 +120,10 @@ Gain comprehensive understanding of the factors affecting hospitalization costs:
 - Visualizations provided key insights into how demographic and medical variables impact cost.
 ---
 
-## Project Structure ???
+## Project Structure
 
 ```
+Healthcare Cost Prediction - Caltech Data Science Capstone Project/
 ├── data/
 │ ├── interim/
 │ │   ├── df_Hospitalisation_details.parquet
@@ -133,7 +134,7 @@ Gain comprehensive understanding of the factors affecting hospitalization costs:
 │     ├── Hospitalisation_details.csv
 │     ├── names.csv
 │     └── medical_examination.xlsx
-├── jupyter_notebook_Scripts/ ????
+├── jupyter_notebook_Scripts/
 │     ├── 01_EDA_Feature_Engineering.ipynb
 │     ├── 02_Hypothesis_tesing.ipynb 
 │     └── 03_ML_modeling.ipynb
@@ -150,7 +151,7 @@ Gain comprehensive understanding of the factors affecting hospitalization costs:
 │ │   └── data_analysis_4.png
 │ └── Tableau/
 │     └── dashboard_Tableau_BI.png
-├── plots/ ???
+├── plots/
 │     ├── Box_plot_whisker.png
 │     ├── Cost_dist_hospital_tier_gender.png
 │     ├── Histogram.png
@@ -158,13 +159,23 @@ Gain comprehensive understanding of the factors affecting hospitalization costs:
 │     ├── stacked_plot.png
 │     ├── Swarm_Plots.png
 │     ├── Heat_map.png
-│     ├── ??.png
-│     └── ?.png
+│     ├── Decision_Tree_Regressor.png
+│     ├── K-Nearest_Neighbors_(KNN)_Regression.png
+│     ├── Lasso_Regression_(L1_regularization).png
+│     ├── Learning_Curves.png
+│     ├── Linear_Regression.png
+│     ├── Predicted_vs_Actual.png
+│     ├── Random_Forest_Regressor.png
+│     ├── Residual_Plot.png
+│     ├── Ridge_Regression_(L2_regularization).png
+│     ├── Support_Vector_Regressor_(SVR).png
+│     └── XGBoost_Regression.png
 ├── SQL/
 │     └── SQL_Script.sql
 ├── tableau/
 │     ├── Business_Insights.twbx
 │     └── Business_Insights.twb
+├── ML_model.pkl
 └── README.md
 
 
@@ -217,8 +228,4 @@ Gain comprehensive understanding of the factors affecting hospitalization costs:
 [Email](ab.zolfaghari.abbasghaleh) | [GitHub](https://github.com/abolfazl6678)
 
 ---
-
-
-
-
 
