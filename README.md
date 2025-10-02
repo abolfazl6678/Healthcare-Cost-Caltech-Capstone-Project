@@ -130,10 +130,12 @@ Healthcare Cost Prediction - Caltech Data Science Capstone Project/
 │ │   ├── df_Medical_Examinations.parquet
 │ │   ├── df.parquet
 │ │   └── df_Names.parquet
-│ └── raw/
-│     ├── Hospitalisation_details.csv
-│     ├── names.csv
-│     └── medical_examination.xlsx
+│ ├── raw/
+│ │   ├── Hospitalisation_details.csv
+│ │   ├── names.csv
+│ │   └── medical_examination.xlsx
+│ └── Processed/
+│     └── df.parquet
 ├── jupyter_notebook_Scripts/
 │     ├── 01_EDA_Feature_Engineering.ipynb
 │     ├── 02_Hypothesis_tesing.ipynb 
